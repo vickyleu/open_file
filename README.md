@@ -104,7 +104,7 @@ when Conflict with other plugins about FileProvider, add code below in your /and
         ...
         <provider
                 android:name="androidx.core.content.FileProvider"
-                android:authorities="${applicationId}.fileProvider"
+                android:authorities="${applicationId}.FileProvider"
                 android:exported="false"
                 android:grantUriPermissions="true"
                 tools:replace="android:authorities">
